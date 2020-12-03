@@ -42,26 +42,25 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#departments">Department</a>
+                    <a class="nav-link" href="#departments">Departments</a>
                 </li>
 
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact us</a>
                 </li>
-                <!-- <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li> -->
-                <!-- <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
-            </li> -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Co-curricular
+                    </a>
+                    <div class="dropdown-menu" style="background-color:#2676a76e;" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item " style="color: #fff; " href="ncc.html">NCC</a>
+                      <a class="dropdown-item"  style="color: #fff; " href="nss.html">NSS</a>
+                      <a class="dropdown-item"  style="color: #fff; " href="iedc.html">IEDC</a>
+                      <a class="dropdown-item"  style="color: #fff; " href="asap.html">ASAP</a>
+                      <!-- <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="iedc.html">IEDC</a>
+                    </div> -->
+                  </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -74,12 +73,32 @@
         <div class="container">
             <div class="agileinfo-inner">
                 <h2 class="text-center" style="color: rgba(255, 255, 255, 0.493);">
-                    NATIONAL SERVICE SCHEME
+                    NATIONAL SERVICE SCHEME(NSS)
                 </h2>
             </div>
         </div>
     </div>
     <!-- //inner banner -->
+
+     <!-- breadcrumbs -->
+     <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+                <a href="#">Co-curricular</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">NSS</li>
+            <li class="breadcrumb-item">
+                <a href="ncc.html">NCC</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a href="iedc.html">IEDC</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a href="asap.html">ASAP</a>
+            </li>
+        </ol>
+    </nav>
+    <!-- //breadcrumbs -->
 
     
 <!-- ======= mission vission Section ======= -->
@@ -97,7 +116,7 @@
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
                 <h3>Vision</h3>
-                <p style="font-size: 20px; word-break: break-all;">
+                <p style="font-size: 20px; word-break: break-all; color: #888888;">
                     Technical institution of the highest order with a transformative impact on society.
                 </p>
                 <!-- <a href="#" class="read-more">Read More <i class="icofont-long-arrow-right"></i></a> -->
@@ -110,7 +129,7 @@
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
                 <h3>Mission</h3>
-                <p class="missionpoint" style="font-size: 20px; word-break: break-all;">
+                <p class="missionpoint" style="font-size: 20px; word-break: break-all; color: #888888;">
                     <i class="icofont-long-arrow-right"></i> Endeavour to create and sustain an academic environment
                     that accelerates intellectual growth and skill acquisition. <br>
 
@@ -283,57 +302,22 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     
-	<!-- stats -->
-	<!-- <script src="js/jquery.waypoints.min.js"></script>
-	<script src="js/jquery.countup.js"></script> -->
-	 <!-- <script>
-		$('.counter').countUp();
-	</script> --> 
-	<!-- //stats -->
-
-	<!-- start-smoth-scrolling -->
-	  <!-- <script src="js/SmoothScroll.min.js"></script>
-	<script type="text/javascript" src="js/move-top.js"></script>
-	<script type="text/javascript" src="js/easing.js"></script>
-	<script type="text/javascript">
-		jQuery(document).ready(function($) {
-			$(".scroll").click(function(event){		
-				event.preventDefault();
-				$('html,body').animate({scrollTop:$(this.hash).offset().top},3000);
-			});
-		}); 
-	 </script>  -->
-	<!-- here stars scrolling icon -->
-	 <!-- <script type="text/javascript">
-		$(document).ready(function() { 
-			
-				//  var defaults = {
-				// containerID: 'toTop', // fading element id
-				// containerHoverID: 'toTopHover', // fading element hover id
-				// scrollSpeed: 1200,
-				// easingType: 'linear' 
-				// };
-		
-								
-			$().UItoTop({ easingType: 'easeOutQuart' });
-								
-			}); 
-    </script>  -->
-
+	
+  <!-- FADE -->
     <script>
         AOS.init({
             once: true,
         });
     </script>
-	<!-- //here ends scrolling icon -->
-    <!-- start-smoth-scrolling -->
-    
+	
+    <!-- PRELOADER -->
     <script type="text/javascript">
         jQuery(window).load(function(){
         jQuery(".loader").fadeOut(500);
        });
     </script>
-
+      
+      <!-- ZOOMOUT ZOOMIN -->
     <script>
         const bg=document.getElementById('home');
         window.addEventListener('scroll',function(){
@@ -342,6 +326,8 @@
         });
 
     </script>
+
+    <!-- SCROLL TO TOP -->
 
 <script type="text/javascript">
     (function ($, window, document) {
